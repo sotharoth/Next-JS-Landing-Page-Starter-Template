@@ -1,6 +1,6 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
-
+import Link from 'next/link';
 
 import { Hero } from './Hero';
 
@@ -51,7 +51,7 @@ const Base = () => (
       <ButtonBtm>
       <form>
 
-        <ButtonOne type='button' value ="Cellagen Mask ៣ប្រអប់ + សំឡីជូតមុខ = 45$" >៣ប្រអប់ + សំឡីជូតមុខ = 45$</ButtonOne>
+        <ButtonOne type='button' value ="Cellagen Mask ៣ប្រអប់ + សំឡីជូតមុខ = 45$" ><Link href="https://m.me/deyaqueenstore"></ButtonOne>
 
         </form>
       </ButtonBtm>
