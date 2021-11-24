@@ -7,7 +7,7 @@ import Link from 'next/link';
 import {
   MainContentArea,
 
-ButtonOne,
+
 
   SlidePro1,
 
@@ -51,8 +51,8 @@ const Base = () => (
       <ButtonBtm>
       <form>
 
-        <ButtonOne type='button' value ="Cellagen Mask ៣ប្រអប់ + សំឡីជូតមុខ = 45$" ><Link href="https://m.me/deyaqueenstore">  <a>Buy Now</a>
-        </Link></ButtonOne>
+    <Link href="https://m.me/deyaqueenstore">  <a>Buy Now</a>
+        </Link>
 
         </form>
       </ButtonBtm>
