@@ -6,7 +6,7 @@ import {
   MainContentArea,
 
 
-ButtonOne,
+  ButtonOne,
   SlidePro1,
 
   VideoMask3,
@@ -51,7 +51,7 @@ const Base = () => (
 
       <Link href="https://m.me/deyaqueenstore">
         <a>
-          <ButtonOne xl>Download Your Free Theme</ButtonOne>
+          <ButtonOne type='button' value ="SHAKE BABY ថែម Jelly 3 កញ្ចប់= 30$">SHAKE BABY+Jelly 3 កញ្ចប់= 30$</ButtonOne>
         </a>
       </Link>
 
