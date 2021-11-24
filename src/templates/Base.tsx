@@ -1,8 +1,6 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
-import Link from 'next/link';
-
-
+import { Hero } from './Hero';
 
 import {
   MainContentArea,
@@ -51,8 +49,7 @@ const Base = () => (
       <ButtonBtm>
       <form>
 
-    <Link href="https://m.me/deyaqueenstore">  <a>Buy Now</a>
-        </Link>
+
 
         </form>
       </ButtonBtm>
@@ -60,7 +57,7 @@ const Base = () => (
       </VideoMask3>
     </SlidePro1>
 
-
+    <Hero />
 
       </MainContentArea>
 
