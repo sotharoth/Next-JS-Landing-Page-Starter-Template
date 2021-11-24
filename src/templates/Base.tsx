@@ -14,7 +14,7 @@ import {
   VideoMask3,
   ThumPro,
   ThumTitle,
-
+ButtonBtm,
 
 
 } from '../styles/pages.style';
