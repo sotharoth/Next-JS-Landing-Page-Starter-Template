@@ -3,7 +3,7 @@ import { AppConfig } from '../utils/AppConfig';
 
 
 import { Hero } from './Hero';
-import { VerticalFeatures } from './VerticalFeatures';
+
 import {
   MainContentArea,
   SidebarSection,
