@@ -10,20 +10,12 @@ import {
 
 
   SlidePro1,
-  SlidePro2,
-  VideoMask,
-  VideoMask2,
+
   VideoMask3,
   ThumPro,
   ThumTitle,
-  ThumImg,
-  ButtonBtm,
-  VideoSize,
-  ButtonOne,
-  ButtonTwo,
-  Title,
-  Point,
-  ButtonThere,
+
+
 
 } from '../styles/pages.style';
 import { GlobalStyle } from '../styles/global.style';
