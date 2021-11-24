@@ -2,7 +2,7 @@ import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import Link from 'next/link';
 
-import { Hero } from './Hero';
+
 
 import {
   MainContentArea,
