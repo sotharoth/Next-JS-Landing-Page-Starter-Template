@@ -59,7 +59,7 @@ const Base = () => (
 
     <Link href="https://m.me/deyaqueenstore">
       <a>
-        <ButtonOne type='button' value ="SHAKE BABY ថែម Jelly 3 កញ្ចប់= 30$">SHAKE BABY+Jelly 3 កញ្ចប់= 30$</ButtonOne>
+        <ButtonOne type='button' value ="SHAKE BABY ថែម Jelly 3 កញ្ចប់= 30$">Sent Message</ButtonOne>
       </a>
     </Link>
 

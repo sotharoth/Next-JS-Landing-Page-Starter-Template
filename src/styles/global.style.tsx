@@ -163,7 +163,7 @@ export const GlobalStyle = createGlobalStyle(({ theme }) =>
       textDecoration: 'none',
       width: '100%',
     position: 'fixed',
-    bottom: 20,
+    bottom: 0,
     },
     iframe: {
       width: '335px',
