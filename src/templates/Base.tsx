@@ -59,7 +59,7 @@ const Base = () => (
       </VideoMask3>
     </SlidePro1>
 
-    <Hero />
+
 
       </MainContentArea>
 
