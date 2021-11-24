@@ -6,10 +6,9 @@ import { Hero } from './Hero';
 
 import {
   MainContentArea,
-  SidebarSection,
-  ContentSection,
-  OfferSection,
-  MobileCarouselDropdown,
+
+
+
   SlidePro1,
   SlidePro2,
   VideoMask,
