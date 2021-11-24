@@ -33,6 +33,7 @@
     "@types/react": "^17.0.33",
     "@types/styled-system": "^5.1.13",
     "@types/styled-system__css": "^5.0.16",
+    "@types/styled-system__theme-get": "^5.0.2",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "autoprefixer": "^10.4.0",
