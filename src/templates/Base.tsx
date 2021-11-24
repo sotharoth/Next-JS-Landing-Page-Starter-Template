@@ -1,6 +1,6 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
-import { Hero } from './Hero';
+
 import Link from 'next/link';
 import {
   MainContentArea,
@@ -49,11 +49,7 @@ const Base = () => (
       <ButtonBtm>
       <form>
 
-      <Link href="https://m.me/deyaqueenstore">
-        <a>
-          <ButtonOne type='button' value ="SHAKE BABY ថែម Jelly 3 កញ្ចប់= 30$">SHAKE BABY+Jelly 3 កញ្ចប់= 30$</ButtonOne>
-        </a>
-      </Link>
+
 
         </form>
       </ButtonBtm>
@@ -61,7 +57,11 @@ const Base = () => (
       </VideoMask3>
     </SlidePro1>
 
-    <Hero />
+    <Link href="https://m.me/deyaqueenstore">
+      <a>
+        <ButtonOne type='button' value ="SHAKE BABY ថែម Jelly 3 កញ្ចប់= 30$">SHAKE BABY+Jelly 3 កញ្ចប់= 30$</ButtonOne>
+      </a>
+    </Link>
 
       </MainContentArea>
 
