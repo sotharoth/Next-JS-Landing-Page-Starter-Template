@@ -34,7 +34,7 @@ const Hero = () => (
         }
         description="The easiest way to build a React landing page in seconds."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://m.me/deyaqueenstore">
             <a>
               <Button xl>Download Your Free Theme</Button>
             </a>
