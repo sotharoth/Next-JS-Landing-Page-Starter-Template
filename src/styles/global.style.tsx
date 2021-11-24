@@ -1,6 +1,6 @@
+import css from '@styled-system/css';
 import styled, { createGlobalStyle } from 'styled-components';
 import { get } from 'styled-system';
-import css from '@styled-system/css';
 
 export const InjectRTL = styled.div`
   ${({ lang }) =>
@@ -27,119 +27,95 @@ export const GlobalStyle = createGlobalStyle(({ theme }) =>
       WebkitFontSmoothing: 'antialiased',
       MozOsxFontSmoothing: 'grayscale',
       textShadow: '1px 1px 1px rgba(0, 0, 0, 0.004)',
-
     },
 
     '.react-multiple-carousel__arrow': {
-
-          background: '#fff',
-
-      },
-      '.react-multiple-carousel__arrow:hover': {
-
-
-            background: '#e2e5ea',
-
-        },
-      '.react-multiple-carousel__arrow::before': {
-
-
-            color: '#000',
-        },
+      background: '#fff',
+    },
+    '.react-multiple-carousel__arrow:hover': {
+      background: '#e2e5ea',
+    },
+    '.react-multiple-carousel__arrow::before': {
+      color: '#000',
+    },
 
     '._53j5': {
-
-          width: '100%',
-    height: '660px',
-      },
-       '.qty': {
-
-          width: '30px',
-          float: 'left',
-          textAlign: 'center',
-          borderBottom: '1px solid #ddd',
-
-      },
-      '.qtydetail': {
-
-          width: '10%',
-          float: 'left',
-          textAlign: 'center',
-          borderBottom: '1px solid #ddd',
-
-      },
-      '.addplus': {
-
-          width: '90%',
-          float: 'left',
-          textAlign: 'center',
-          borderBottom: '1px solid #ddd',
-
-      },
-      '.totals': {
-       width: '40px',
-          float: 'left',
-          textAlign: 'center',
-          borderBottom: '1px solid #ddd',
-          fontWeight: 600,
-
-
-      },
-      '.checkboxs': {
-       width: '40px',
-          float: 'left',
-          textAlign: 'center',
-          borderBottom: '1px solid #ddd',
-          fontWeight: 600,
-          height: 22,
-
-
-      },
+      width: '100%',
+      height: '660px',
+    },
+    '.qty': {
+      width: '30px',
+      float: 'left',
+      textAlign: 'center',
+      borderBottom: '1px solid #ddd',
+    },
+    '.qtydetail': {
+      width: '10%',
+      float: 'left',
+      textAlign: 'center',
+      borderBottom: '1px solid #ddd',
+    },
+    '.addplus': {
+      width: '90%',
+      float: 'left',
+      textAlign: 'center',
+      borderBottom: '1px solid #ddd',
+    },
+    '.totals': {
+      width: '40px',
+      float: 'left',
+      textAlign: 'center',
+      borderBottom: '1px solid #ddd',
+      fontWeight: 600,
+    },
+    '.checkboxs': {
+      width: '40px',
+      float: 'left',
+      textAlign: 'center',
+      borderBottom: '1px solid #ddd',
+      fontWeight: 600,
+      height: 22,
+    },
 
     '.react-multi-carousel-dot-list': {
       zIndex: '5',
     },
-'.cart-scrollbar' : {
-  maxHeight: 'calc(100vh - 245px) ! important',
-},
-'.Collapsible' : {
-  textAlign: 'center',
+    '.cart-scrollbar': {
+      maxHeight: 'calc(100vh - 245px) ! important',
+    },
+    '.Collapsible': {
+      textAlign: 'center',
 
-    color: '#000',
+      color: '#000',
 
-    width: '100%',
-    bottom: '0',
-        float: 'right',
+      width: '100%',
+      bottom: '0',
+      float: 'right',
+    },
 
-},
+    '.Collapsible__trigger': {
+      borderRadius: '33px',
+      padding: '8px 20px',
+      fontSize: '12px',
+      background: '#fff',
+      color: '#000',
+      fontWeight: '777',
+      right: '30px',
+      float: 'right',
+      position: 'absolute',
+    },
+    '.Collapsible__contentOuter': {
+      textAlign: 'left',
+      fontSize: '14px',
+      paddingTop: '45px',
+      color: '#fff',
+    },
 
-'.Collapsible__trigger' : {
+    '.Collapsible__contentInner': {
+      padding: '0 20px',
 
-  borderRadius: '33px',
-  padding: '8px 20px',
-  fontSize:'12px',
-  background: '#fff',
-  color: '#000',
-  fontWeight: '777',
-  right: '30px',
-    float: 'right',
-    position: 'absolute',
-
-},
-'.Collapsible__contentOuter' : {
-  textAlign: 'left',
-  fontSize: '14px',
-  paddingTop: '45px',
-    color:'#fff',
-},
-
-'.Collapsible__contentInner' : {
-
-  padding: '0 20px',
-
-color: '#000',
-
-},
+      color: '#000',
+    },
 
     h1: {
       fontFamily: 'heading',
@@ -188,7 +164,6 @@ color: '#000',
     },
     iframe: {
       width: '335px',
-
     },
     ul: {
       margin: 0,
@@ -281,7 +256,6 @@ color: '#000',
       },
     },
     '.fb-video': {
-
       span: {
         height: '350px !important',
       },
@@ -326,7 +300,7 @@ color: '#000',
       width: '1px !important',
       whiteSpace: 'nowrap !important',
     },
-    //@ts-ignore
-  //  ...theme.globals,
+    // @ts-ignore
+    //  ...theme.globals,
   })
 );
