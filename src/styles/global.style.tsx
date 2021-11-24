@@ -161,6 +161,9 @@ export const GlobalStyle = createGlobalStyle(({ theme }) =>
     a: {
       fontFamily: 'body',
       textDecoration: 'none',
+      width: '100%',
+    position: 'fixed',
+    bottom: 20,
     },
     iframe: {
       width: '335px',
@@ -260,6 +263,6 @@ export const GlobalStyle = createGlobalStyle(({ theme }) =>
         height: '350px !important',
       },
     },
-  
+
   })
 );
