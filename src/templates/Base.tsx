@@ -7,7 +7,7 @@ import { Hero } from './Hero';
 import {
   MainContentArea,
 
-
+ButtonOne,
 
   SlidePro1,
 
@@ -51,7 +51,7 @@ const Base = () => (
       <ButtonBtm>
       <form>
 
-
+        <ButtonOne type='button' value ="Cellagen Mask ៣ប្រអប់ + សំឡីជូតមុខ = 45$" >៣ប្រអប់ + សំឡីជូតមុខ = 45$</ButtonOne>
 
         </form>
       </ButtonBtm>
