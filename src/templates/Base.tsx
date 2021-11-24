@@ -51,7 +51,8 @@ const Base = () => (
       <ButtonBtm>
       <form>
 
-        <ButtonOne type='button' value ="Cellagen Mask ៣ប្រអប់ + សំឡីជូតមុខ = 45$" ><Link href="https://m.me/deyaqueenstore"></ButtonOne>
+        <ButtonOne type='button' value ="Cellagen Mask ៣ប្រអប់ + សំឡីជូតមុខ = 45$" ><Link href="https://m.me/deyaqueenstore">  <a>Buy Now</a>
+        </Link></ButtonOne>
 
         </form>
       </ButtonBtm>
