@@ -1,7 +1,7 @@
 import { Meta } from '../layout/Meta';
 import { AppConfig } from '../utils/AppConfig';
 import { Hero } from './Hero';
-
+import Link from 'next/link';
 import {
   MainContentArea,
 
@@ -49,7 +49,11 @@ const Base = () => (
       <ButtonBtm>
       <form>
 
-
+      <Link href="https://m.me/deyaqueenstore">
+        <a>
+          <Button xl>Download Your Free Theme</Button>
+        </a>
+      </Link>
 
         </form>
       </ButtonBtm>
