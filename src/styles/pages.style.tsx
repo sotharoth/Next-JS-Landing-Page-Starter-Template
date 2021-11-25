@@ -286,7 +286,7 @@ margin: 12px 20px 0 0;
 width: 100%;
 height: 50px;
 
-border-radius: 10px;
+
 
 `;
 const ButtonTwo = styled.button`
